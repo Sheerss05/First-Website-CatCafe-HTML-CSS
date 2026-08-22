@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="catcafe_menu.css" rel="stylesheet"/>
+    <link href="pc_reset.css" rel=" stylesheet"/>
+     <link href="catcafe_headerfooter.css" rel="stylesheet"/>
+    <title>Cat Cafe - Menu</title>
+    <style>
+        body {
+            background-color: #f3efe3;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        
+        .cat-image {
+            flex:1;
+            max-width: 50%; 
+            text-align: center;
+            padding: 20px;
+            background-color: #f3efe3; 
+            font-family: Arial, sans-serif;
+        }
+
+        .cat-image img {
+            max-width:65%; 
+            height: fit-content; 
+        }
+
+    
+        .menu-container {
+            flex:1;
+        }
+
+
+        .menu-category {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .menu-category img {
+            max-width: 100px; 
+            height: auto; 
+        }
+
+        .menu-category h3 {
+            text-transform: uppercase; 
+            position: relative;
+            font-size: 24px;
+        }
+
+        .menu-category h3::after {
+            content: ""; 
+            display: block;
+            width: 60px; 
+            height: 2px; 
+            background-color: #000; 
+            position: absolute;
+            top: 100%; 
+            left: 50%; 
+            transform: translateX(-50%);
+        }
+
+        .menu-list {
+           list-style: none ;
+        }
+
+
+        .menu-item::before {
+            content: "\2713"; 
+            font-size: 20px; 
+            margin-right: 5px; 
+            color: green; 
+}
+
+        .menu-item {
+            padding: 18px 0;
+            font-size: 29px;
+            display: flex;
+            align-items: center;
+            
+        }
+
+        .menu-category button{
+            margin-top: 10px;
+            
+        }
+        
+    </style>
+</head>
+<body style="display: flex; flex-direction: column; min-height: 100vh;">
+    <header>
+        <div class="logo">
+            <a href="catcafe_home.html"><img src="image/logo.png" alt="Logo"></a>
+        </div>
+        <div class="shoppingcart">
+            <a href="catcafe_shoppingcart.html"><img src="image/shopping_cart.png" alt="Shopping Cart"></a>
+        </div>
+        <div>
+            <h1 class="catcafe">Cat Cafe</h1>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="catcafe_aboutus.html">About Us</a></li>
+                    <li><a href="#" class="submenutitle">Menu ⥿</a>
+                        <div class="submenu-container">
+                            <ul class="submenu">
+                                <li><a href="catcafe_food.html">Food</a></li>
+                                <li><a href="catcafe_drink.html">Drink</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="catcafe_cat.html">Cat</a></li>
+                    <li><a href="catcafe_outlet.html">Outlet</a></li>
+                    <li><a href="#" class="submenutitle">More ⥿</a>
+                        <div class="submenu-container">
+                            <ul class="submenu">
+                                <li><a href="catcafe_myaccount.html">My Account</a></li>
+                                <li><a href="catcafe_membership.html">Membership</a></li>
+                                <li><a href="catcafe_feedback.html">Feedback</a></li>
+                                <li><a href="catcafe_review.html">Review</a></li>
+                                <li><a href="catcafe_t&c.html">T&C</a></li>
+                                <li><a href="catcafe_faq.html">FAQ</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div>
+    <h2 style="margin:7% 13% 0 13%;font-size:2em;font-family: 'Courier New', Courier, monospace;">Cafe Menu</h2>
+    <article style="display: flex;">
+    <div class="cat-image"style="margin:0 0 0 4%;width:40%;float:left">
+        <img src="image/cat1.jpg" alt="Cat Image 1"> 
+        <img src="image/cat2.jpg" alt="Cat Image 2"> 
+        <img src="image/cat3.jpg" alt="Cat Image 3"> 
+    </div>
+
+    <div class="menu-container" style="clear:left;margin:0 5% 0 0;width:40%;float:right">
+        <div class="menu-container">
+            <div class="menu-category">
+                <img src="image/coffee.png" alt="Coffee Logo"> 
+                <h3>Coffee</h3></div>
+                <ul class="menu-list">
+                    <li class="menu-item">Caffe latte rm10.90</li>
+                    <li class="menu-item">Spanish latte rm12.90</li>
+                    <li class="menu-item">Americano  rm11.90</li>
+                    <li class="menu-item">Espresso  rm10.90</li>
+                    <li class="menu-item">Mocha rm13.90</li>
+                    <li class="menu-item">Cappuccino rm12.90</li>
+                    <li class="menu-item">Macchiato  rm10.90</li>
+                </ul>
+                <a href="catcafe_drink.html">
+                    <button>Click</button>
+                </a>
+            </div>
+            <div class="menu-category">
+                <img src="image/food.png" style="margin-top:6%" alt="Food Logo"> 
+                <h3>Food</h3>
+                <ul class="menu-list">
+                    <li class="menu-item">Cakes  rm12</li>
+                    <li class="menu-item">French Fries rm8.90</li>
+                    <li class="menu-item">Mushroom soup  rm6.90</li>
+                    <li class="menu-item">Spaghetti (mushroom, tomato) rm15.90</li>
+                    <li class="menu-item">Burger (chic, beef, fish)  rm6.50</li>
+                    <li class="menu-item">Pastries  rm3.50</li>
+                    <li class="menu-item">Muffins  rm3</li>
+                    <li class="menu-item">Healthy snacks  rm 6</li>
+                </ul>
+                <a href="catcafe_food.html">
+                    <button style="margin-left:-100%;">Click</button>
+                </a> 
+            </div>
+        </div>
+    </div>
+    </article>
+    </div>
+    
+    <footer style="margin-top: 2%; float: right;">
+        <div class="social">
+            <section>
+                <span class="followtxt">
+                    <p>Follow Us On</p>
+                </span>
+                <span class="fb">
+                    <a href="https://www.facebook.com/profile.php?id=100021571543928&mibextid=ZbWKwL">
+                    <img src="image/facebook.png" alt="Facebook">
+                    </a>
+                </span>
+                <span class="ins">
+                    <a href="https://instagram.com/shereen9487?igshid=MzMyNGUyNmU2YQ==">
+                    <img src="image/ins.png" alt="Instagram">
+                    </a>
+                </span>
+                <span class="twit">
+                    <a href="https://twitter.com/AngelssBecky?t=TcnE2fVa9kipC_1EYRddkA&s=09">
+                    <img src="image/twitter.png" alt="Twitter">
+                    </a>
+                </span>
+            </section>
+        </div>
+
+        <div class="footertxt">
+            <p>Cat Cafe Sdn Bhd &bullet; COPYRIGHT 2023 &copy; CAT CAFE</p>
+        </div>
+    </footer>
+</body>
+</html>

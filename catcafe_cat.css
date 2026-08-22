@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+*{
+
+
+.grid-container {
+margin-top: 7%;
+display: grid;
+grid-template-columns: auto auto auto;
+background-color: #f3efe3;
+padding: 10px;
+}
+
+      
+.grid-item {
+background-color: #f3efe3;
+border: 1px solid;
+border-color: black;
+padding: 20px;
+font-size: 20px;
+text-align: center;
+line-height: 2.0;
+
+}
+
+
+h1{
+text-align: center;
+font-weight: bold;
+letter-spacing: 2px;
+color: black;
+padding-bottom: 10px;
+height: 50px;
+}
+
+.table{
+background-color: #f3efe3;
+width: 100%;
+}
+
+
+}

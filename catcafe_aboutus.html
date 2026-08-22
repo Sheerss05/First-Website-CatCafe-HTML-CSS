@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="eng">
+<html>
+<head>
+    <!--
+    Assignment Web Design
+    Author: Lim Shereen
+    Date:   22 September 2023
+
+    Filename: Cat Cafe_About Us
+    -->
+    <meta charset="utf-8"/>
+    <title>About Us</title>
+    <link rel="icon" href="image/logo.png" type="image/x-icon">
+    <link href="pc_reset.css" rel="stylesheet"/>
+    <link href="catcafe_headerfooter.css"rel="stylesheet"/>
+    <link href="catcafe_aboutus.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="catcafe_home.html"><img src="image/logo.png" alt="Logo"></a>
+        </div>
+        <div class="shoppingcart">
+            <a href="catcafe_shoppingcart.html"><img src="image/shopping_cart.png" alt="Shopping Cart"></a>
+        </div>
+        <div>
+            <h1 class="catcafe">Cat Cafe</h1>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="catcafe_aboutus.html">About Us</a></li>
+                    <li><a href="#" class="submenutitle">Menu ⥿</a>
+                        <div class="submenu-container">
+                            <ul class="submenu">
+                                <li><a href="catcafe_food.html">Food</a></li>
+                                <li><a href="catcafe_drink.html">Drink</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="catcafe_cat.html">Cat</a></li>
+                    <li><a href="catcafe_outlet.html">Outlet</a></li>
+                    <li><a href="#" class="submenutitle">More ⥿</a>
+                        <div class="submenu-container">
+                            <ul class="submenu">
+                                <li><a href="catcafe_myaccount.html">My Account</a></li>
+                                <li><a href="catcafe_membership.html">Membership</a></li>
+                                <li><a href="catcafe_feedback.html">Feedback</a></li>
+                                <li><a href="catcafe_review.html">Review</a></li>
+                                <li><a href="catcafe_t&c.html">T&C</a></li>
+                                <li><a href="catcafe_faq.html">FAQ</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div>
+        <article class="story">
+            <video controls poster="image/catcafevideoposter.jpg">
+                <source src="image/catcafevideo.mp4" type="video/mp4"/>
+                <source src="image/catcafevideo.webm" type="video/webm"/>
+                <p><em>To play this video clip, your browser needs to support HTML5.</em></p>
+            </video>
+
+            <h1 class="title">About Us<br></h1>
+            <p class="storytxt">Cat cafe is a place where you can grab a cup of coffee by the company of cats. Some of them was adopted from the stray cat shelter or either adopted at the street. All of them have been vaccinated with the most basic vaccines so you dont have to worry. The most important that you need to know is, you can bring your furry kids here too with only follow some basic rules to keep the safety for each other.<br><br>
+            Suggested duration: 1-2 hours</p>
+    
+            <audio controls>
+                <source src="image/catmeowing.mp3" type="audio/mp3"/>
+                <source src="image/catmeowing.ogg" type="audio/ogg"/>
+                <p><em>To play this audio, your browser needs to support HTML5.</em></p>
+            </audio>
+        </article>
+    </div>
+
+    <div>
+        <h1 class="title" id="managementtxt" >Management</h1>
+        <article class="management">
+            <img src="image/shereen.jpg" alt="Lim Shereen" style="clear:left;"/>
+            <h2 class="job" >Cafe Manager<br><br><br></h2>
+            <p class="details">Job scope:<br><br>
+                - Home page include all header & footer<br>
+                - About Us page<br>
+                - Outlet page<br>
+                - Report (all format, chapter 1 question 1, chapter 2 own part)
+            </p>
+        </article>
+        <article class="management">
+            <img src="image/peinie.jpg" alt="Lok Pei Nie" style="clear:left;"/>
+            <h2 class="job" id="jobpn">Cat Resources (HR)<br><br><br></h2>
+            <p class="details">Job scope:<br><br>
+                - Cat page<br>
+                - Membership page<br>
+                - Feedback page<br>
+                - Report (chapter 1 question 5, chapter 2 own part)
+            </p>
+        </article>
+        <article class="management">
+            <img src="image/yichyn.jpg" alt="Seng Yichyn" style="clear:left;"/>
+            <h2 class="job" >Food and Coffee Manager<br><br><br></h2>
+            <p class="details">Job scope:<br><br>
+                - Menu page<br>
+                - Food page<br>
+                - Coffee page<br>
+                - Report (chapter 1 question 4, chapter 2 own part)
+            </p>
+        </article>
+        <article class="management">
+            <img src="image/weihong.jpg" alt="Sin Wei Hong" style="clear:left;"/>
+            <h2 class="job" >Marketing Manager<br><br><br></h2>
+            <p class="details">Job scope:<br><br>
+                - My Account page<br>
+                - Customer Review page<br>
+                - Shopping Cart page (payment and pick up & delivery)<br>
+                - Report (chapter 1 question 3, chapter 2 own part)
+            </p>
+        </article>
+        <article class="management">
+            <img src="image/zhenlun.jpg" alt="Au Zhen Lun" style="clear:left;"/>
+            <h2 class="job" id="jobzl" >Service careers<br><br><br></h2>
+            <p class="details">Job scope:<br><br>
+                - Terms & conditions page<br>
+                - FAQ page<br>
+                - Shopping Cart page (payment details)<br>
+                - Report (chapter 1 question 2, chapter 2 own part)
+            </p>
+        </article>
+    </div>
+
+    <div class="location">
+        <article>
+            <h1 class="title" id="mainbranch" style="clear:left;">Main Branch of Cat Cafe</h1>
+            <img src="image/cafe1.jpg" alt="KL Main Branch" style="clear:left;"/>
+            <div id="googlemap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.535463072444!2d101.72780089999999!3d3.2158566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc386996155555%3A0x77dfcf144dc35f05!2sYumYum%20Canteen%20TARUMT!5e0!3m2!1sen!2smy!4v1695487302528!5m2!1sen!2smy" width="500" height="415" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </article>
+        <aside class="mbranchinfo">
+                <a href="tel:+189426846" class="info" id="tel">Tel : +60 18 942 6846<br></a>
+                <p class="info">Operation Hours : 1000 - 2200<br></p>
+                <a href="https://maps.app.goo.gl/sAuQgUqcT9iH59Bi9" class="maplink">Address : Tunku Abdul Rahman University College, 53100 Kuala Lumpur, Federal Territory of Kuala Lumpur.<br></a>
+                <a href="catcafe_outlet.html" class="outletlink">> Click here to Teleport <</a>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="social">
+            <section>
+                <span class="followtxt">
+                    <p>Follow Us On</p>
+                </span>
+                <span class="fb">
+                    <a href="https://www.facebook.com/profile.php?id=100021571543928&mibextid=ZbWKwL">
+                    <img src="image/facebook.png" alt="Facebook">
+                    </a>
+                </span>
+                <span class="ins">
+                    <a href="https://instagram.com/shereen9487?igshid=MzMyNGUyNmU2YQ==">
+                    <img src="image/ins.png" alt="Instagram">
+                    </a>
+                </span>
+                <span class="twit">
+                    <a href="https://twitter.com/AngelssBecky?t=TcnE2fVa9kipC_1EYRddkA&s=09">
+                    <img src="image/twitter.png" alt="Twitter">
+                    </a>
+                </span>
+            </section>
+        </div>
+
+        <div class="footertxt">
+            <p>Cat Cafe Sdn Bhd &bullet; COPYRIGHT 2023 &copy; CAT CAFE</p>
+        </div>
+    </footer>
+</body>
+
+</html>

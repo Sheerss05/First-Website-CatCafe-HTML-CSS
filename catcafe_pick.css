@@ -1,0 +1,142 @@
+@charset "utf8";
+
+/* Reset some default browser styles */
+body, h1, p, ul, li, form, label, input, textarea, fieldset {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  
+  /* Apply basic styling to the body */
+  body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(243,239,227) ;
+    margin: 20px;
+  }
+  
+  /* Style the section containing the form */
+  section {
+    background-color:white;
+    padding: 20px;
+    border-radius: 50px  ;
+    width:80%;
+    margin:5% 5% 0 9%;
+  }
+  
+  /* Style headings */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Style paragraph text */
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Style form elements */
+  input[type="text"],
+  input[type="tel"],
+  textarea {
+    width:50% ;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="radio"] {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  fieldset {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: rgb(243,239,227);
+    color: white;
+    padding: 10px 20px;
+    border:2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Style the button within the form */
+  form button {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Apply styles for links */
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* Apply styles for links on hover */
+  a:hover {
+    text-decoration: underline;
+  }
+
+/*Name*/
+.namecontainer {
+  margin-top:5%;
+  width:83.5%;
+}
+
+.phonecontainer {
+  width:83%;
+}
+
+/*Branch*/
+.branch {
+  margin-top:2%;
+}
+
+  /*Pick up & Delivery*/
+.pu-dv-container {
+  margin:20px;
+}
+
+.pickupcontainer {
+  float:left;
+  width:48%;
+  margin-bottom:3%;
+}
+
+#pickup ,#delivery {
+  margin-bottom:6%;
+}
+
+#pickupInfo ,#deliveryInfo {
+  display:none;
+}
+
+.deliverycontainer {
+  float:right;
+  width:48%;
+  margin-bottom:3%;
+}
+
+/*Pick up & Delivery display after click*/
+#pickup:checked + label + container fieldset#pickupInfo {
+  display: block;
+}
+
+#delivery:checked + label + container fieldset#deliveryInfo {
+  display: block;
+}
+
+/*Button Pay Online*/
+.button {
+  clear:both;
+}

@@ -1,0 +1,28 @@
+@charset "utf-8";
+/*
+    Assignment Web Design
+    Author: Lim Shereen
+    Date:   06 August 2023
+
+    Filename: Cat Cafe_About Us CSS
+*/
+
+/* Import Basic Design Styles Used on All Screens */
+@import url("catcafe_home.css");
+
+
+/* ===============================
+	Mobile Devices: 0 to 480px 
+   ===============================
+*/
+@media only screen and (max-width: 480px) {  /*to detect what width is user use, if bigger than 480px, will jump this code and not use it.(for mobile device)*/
+    a#hamburger {		/*display menu icon on mobile*/
+       display: block;   	
+    }
+    div.menu ul {	   /*hide the list*/
+       display: none;   
+    }
+    a#hamburger:hover+ul, div.menu ul:hover {	  /*menu show when mouse over*/
+       display: block;   
+   } 
+ }  

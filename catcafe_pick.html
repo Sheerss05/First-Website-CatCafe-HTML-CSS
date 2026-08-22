@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>PickUp or Delivery Form</title>
+   <link rel="icon" href="image/logo.png" type="image/x-icon">
+   <link href="pc_reset.css" rel="stylesheet"/>
+   <link href="catcafe_pick.css" rel="stylesheet" />
+</head>
+
+<body>
+   <section>
+      <h1> Information</h1>
+      <p>Thank You for visiting our online website. Please fill in some details to complete your order.</p>
+
+      <form action="http://www.example.com/redball/customer" method="post">
+         <div class="namecontainer">
+            <label for="nameBox">Name*</label>
+            <input name="custName" id="nameBox" type="text" placeholder="First and Last Name" required />
+         </div>
+
+         <div class="phonecontainer">
+            <label for="phoneBox">Phone*</label>
+            <input name="custPhone" id="phoneBox" type="tel" required placeholder="(nnn) nnn-nnnn" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" />
+         </div>
+
+         <div class="branch">
+            <label for="BranchSelect">Select the Branch</label>
+            <select id="BranchSelect" name="Outlet">
+               <option value="KL Main Branch">KL Main Branch</option>
+               <option value="Alor Setar Branch">Alor Setar Branch</option>
+               <option value="Terengganu Branch">Terengganu Branch</option>
+               <option value="Penang Branch">Penang Branch</option>
+               <option value="Johor Branch">Johor Branch</option>
+               <option value="Melaka Branch">Melaka Branch</option>
+            </select>
+         </div>
+
+         <div class="pu-dv-container">
+            <div class="pickupcontainer">
+               <input name="orderType" id="pickup" type="radio" />
+               <label for="pickup">Pickup</label>
+               <container>
+                  <fieldset id="pickupInfo">
+                     <legend>Pickup Options</legend>
+                     <label for="pickupBox">Pickup Time </label>
+                     <input name="pickupTime" id="delBox" type="time"/>
+                  </fieldset>
+               </container>
+            </div>
+            <div class="deliverycontainer">
+               <input name="orderType" id="delivery" type="radio" checked />
+               <label for="delivery">Delivery</label> 
+               <container>
+                  <fieldset id="deliveryInfo">
+                     <legend>Delivery Options</legend>
+                     <textarea name="delAddress" id="addressBox" placeholder="Enter delivery address"></textarea> 
+                     <div>
+                        <label for="delBox">Delivery Time </label>    
+                        <input name="delTime" id="delBox" type="time" />                        
+                     </div>
+                  </fieldset>
+               </container>
+            </div>
+         </div>
+
+         <button type="submit" class="button" ><a href="catcafe_payment.html">Pay Online</button>
+      </form>
+   </section>
+</body>
+
+</html>

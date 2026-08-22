@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+/*
+    Assignment Web Design
+    Author: Lim Shereen
+    Date:   22 September 2023
+
+    Filename: Cat Cafe_About Us CSS
+*/
+
+/*Background*/
+html{
+    background-color:#F3EFE3;
+}
+
+/*Style*/
+.title ,.outletlink {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title {
+    font-size:2em;
+}
+
+/*Story*/
+.story {
+    margin-top:7%;
+}
+
+.story video {
+    float:right;
+    width:37%;
+    height:auto;
+    margin-right:13%;
+    margin-top:12px;
+}
+
+video:hover {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+
+.story audio {
+    float:right;
+    margin-right:12.7%;
+    margin-top:24px;
+    width:576px;
+    border-radius: 80px;
+}
+
+audio::-webkit-media-controls-play-button {
+    background-image: url('image/catpaw.png');
+    background-size: cover;
+}
+
+audio:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.title ,.storytxt {
+    float:left;
+    margin-left:13%;
+}
+
+.storytxt {
+    width:35%;
+    height:auto;
+    font-size:1.4em;
+    margin-top:16px;
+    line-height: 1cm;
+}
+
+/*Management*/
+#managementtxt {
+    float:left;
+    margin-top:6.5%;
+    margin-bottom:5px;
+}
+
+.management img{
+    float:left;
+    margin:10px 0 6% 12.5%;
+    width:25%;
+    height:auto;
+    border-radius: 50px;
+}
+
+.job ,.details {
+    float:left;
+    margin-left:60px;
+    width:39%;
+}
+
+.job {
+    font-size:1.7em;
+    margin-top:6%;
+}
+
+.details {
+    font-size:1.4em;
+    line-height: 1cm;
+}
+
+/*Manager 2nd*/
+#jobpn {
+    margin-top:10%;
+}
+
+/*Manager 5nd*/
+#jobzl {
+    margin-top:8%;
+}
+
+
+/*Main Branch*/
+.location img {
+    float:left;
+    margin-top:8px;
+    margin-left: 200px;
+    width:41%;
+    height:auto;
+}
+
+#googlemap {
+    float:right;
+    margin: 8px 12.7% 20px 0;
+}
+
+/*Txt*/
+#mainbranch{
+    margin-bottom:8px;
+    margin-top:2%;
+}
+
+.mbranchinfo {
+    float:none;
+    clear:both;
+    margin:10% 12% 5% 13%;
+    font-size:1.3em;
+    line-height: 1.1cm;
+}
+
+#tel ,.maplink ,.outletlink {
+    text-decoration:none;
+    color:black;
+}
+
+.outletlink {
+    width:23%;
+    height:auto;
+    transition: font-size 0.3s ease;
+    color:#635d46;
+}
+
+.outletlink:hover {
+    font-size: 1.1em;
+    color:black;
+}
+
+/*Footer*/
+body>footer {
+    clear:both;
+}

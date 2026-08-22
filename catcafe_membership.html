@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <title>Register</title>
+    <link rel="icon" href="image/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="catcafe_membership.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link href="pc_reset.css" rel=" stylesheet"/>
+    <link href="catcafe_headerfooter.css" rel="stylesheet"/>
+</head>
+<header>
+    <div class="logo">
+        <a href="catcafe_home.html"><img src="image/logo.png" alt="Logo"></a>
+    </div>
+    <div class="shoppingcart">
+        <a href="catcafe_shoppingcart.html"><img src="image/shopping_cart.png" alt="Shopping Cart"></a>
+    </div>
+    <div>
+        <h1 class="catcafe">Cat Cafe</h1>
+    </div>
+    <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="catcafe_aboutus.html">About Us</a></li>
+                <li><a href="#" class="submenutitle">Menu ⥿</a>
+                    <div class="submenu-container">
+                        <ul class="submenu">
+                            <li><a href="catcafe_food.html">Food</a></li>
+                            <li><a href="catcafe_drink.html">Drink</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="catcafe_cat.html">Cat</a></li>
+                <li><a href="catcafe_outlet.html">Outlet</a></li>
+                <li><a href="#" class="submenutitle">More ⥿</a>
+                    <div class="submenu-container">
+                        <ul class="submenu">
+                            <li><a href="catcafe_myaccount.html">My Account</a></li>
+                            <li><a href="catcafe_membership.html">Membership</a></li>
+                            <li><a href="catcafe_feedback.html">Feedback</a></li>
+                            <li><a href="catcafe_review.html">Review</a></li>
+                            <li><a href="catcafe_t&c.html">T&C</a></li>
+                            <li><a href="catcafe_faq.html">FAQ</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<body>
+    <div class= "container">
+        <div class="form-box">
+            <form action="" name="Formfill" onsubmit="return validation()">
+                <h2>Register</h2>
+                <div class="input-box">
+                    <i class='bx bxs-user'></i>
+                    <input type="text" name="Username" placeholder="Username">
+                </div>
+                <div class="input-box">
+                    <i class='bx bxs-envelope' ></i>
+                    <input type="email" name="Email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <i class='bx bxs-lock-alt' ></i>
+                    <input type="password" name="Password" placeholder="Password">
+                </div>
+                <div class="input-box">
+                    <i class='bx bxs-lock-alt' ></i>
+                    <input type="password" name="CPassword" placeholder="Confirm Password">
+                </div>
+                <div class="button">
+                    <button type="submit" class="btn"><a href="catcafe_register.html" style="text-decoration: none; color:black">Register</button>
+                </div>
+                <div class="group">
+                    <span style=""><a href="catcafe_myaccount.html" style="text-decoration: none; color:black;">Login</a></span>
+                </div>
+            </form>
+        </div>
+        </div>
+        <script src="catcafe_membership.js"></script>
+    </body>
+    <footer>
+        <div class="social">
+            <section>
+                <span class="followtxt">
+                    <p>Follow Us On</p>
+                </span>
+                <span class="fb">
+                    <a href="https://www.facebook.com/profile.php?id=100021571543928&mibextid=ZbWKwL">
+                    <img src="image/facebook.png" alt="Facebook">
+                    </a>
+                </span>
+                <span class="ins">
+                    <a href="https://instagram.com/shereen9487?igshid=MzMyNGUyNmU2YQ==">
+                    <img src="image/ins.png" alt="Instagram">
+                    </a>
+                </span>
+                <span class="twit">
+                    <a href="https://twitter.com/AngelssBecky?t=TcnE2fVa9kipC_1EYRddkA&s=09">
+                    <img src="image/twitter.png" alt="Twitter">
+                    </a>
+                </span>
+            </section>
+        </div>
+
+        <div class="footertxt">
+            <p>Cat Cafe Sdn Bhd &bullet; COPYRIGHT 2023 &copy; CAT CAFE</p>
+        </div>
+    </footer>
+</html>

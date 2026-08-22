@@ -1,0 +1,19 @@
+@charset "utf8";
+
+html {
+    background-color:#F3EFE3 ! important;
+    font-family: Verdana, Geneva, sans-serif;
+    height: 100%;
+ }
+ 
+ body {
+    display:flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+ a {
+    color: black;
+ }

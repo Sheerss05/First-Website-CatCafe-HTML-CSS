@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+/*
+    Assignment Web Design
+    Author: Lim Shereen
+    Date:   21 September 2023
+
+    Filename: Cat Cafe_Home CSS
+*/
+
+/*Background*/
+html{
+    background-color:#F3EFE3;
+}
+
+/*Cafe*/
+.title ,.map {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title{
+    margin-top: 110px;
+    margin-left: 200px;
+    font-size: 2em;
+}
+
+/*Cafe 1*/
+.cafe1 img {
+    float:left;
+    margin-top:8px;
+    margin-left: 200px;
+    width:35%;
+    height:auto;
+}
+
+.cafe1 .branch ,.info, .add ,.map {
+    float:left;
+    margin-left:40px;
+    margin-bottom:40px;
+    width:39%;
+}
+
+.cafe1 .branch{
+    margin-top:8px;
+    font-size:1.7em;
+}
+
+.cafe1 .info, .add ,.map {
+    font-size:1.3em;
+}
+
+
+/*Cafe 2-5*/
+.cafe img {
+    float:left;
+    margin-top:70px;
+    margin-left: 200px;
+    width:35%;
+    height:auto;
+}
+
+.cafe .branch ,.info, .add{
+    float:left;
+    margin-left:40px;
+    margin-bottom:40px;
+    width:39%;
+}
+
+.cafe .branch{
+    margin-top:80px;
+    font-size:1.7em;
+}
+
+.cafe .info, .add{
+    font-size:1.3em;
+}
+
+/*Cafe 6*/
+.cafe6 img {
+    float:left;
+    margin:70px 0 50px 200px;
+    width:35%;
+    height:auto;
+}
+
+.cafe6 .branch ,.info, .add{
+    float:left;
+    margin-left:40px;
+    margin-bottom:40px;
+    width:39%;
+}
+
+.cafe6 .branch{
+    margin-top:85px;
+    font-size:1.7em;
+}
+
+.cafe6 .info, .add{
+    font-size:1.3em;
+}
+
+/*Tel*/
+#info {
+    text-decoration:none;
+    color:black;
+}
+
+/*Map Style*/
+.map {
+    text-decoration:none;
+    color:black;
+    width:23%;
+    height:auto;
+    transition: font-size 0.3s ease;
+}
+
+.map:hover {
+    font-size: 1.35em;
+    color:#635d46;
+}
+
+
+/*Footer*/
+body > footer {
+	clear: left;
+}

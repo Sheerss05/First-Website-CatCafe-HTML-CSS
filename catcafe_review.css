@@ -1,0 +1,49 @@
+body {
+   background-color: rgb(243,239,227);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top:8%;
+    padding: 20px;
+    background-color: rgb(243,239,227);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.review {
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.review p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.review .author {
+    font-weight:bold;
+}
+
+.review .date {
+    color: grey;
+}
+
+.review .rating {
+    color: goldenrod;
+    font-size: 34px;
+}
+
+header{
+    margin-top: auto;
+}
